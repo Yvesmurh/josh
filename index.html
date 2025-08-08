@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KinLuxe - Parfums de Luxe en RDC</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <p>Livraison rapide à Kinshasa | Service client: <a href="https://wa.me/243XXXXXXXXX">+243 XX XXX XXXX</a></p>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>KINLUXE</h1>
+            <p>L'élégance en chaque flacon</p>
+        </div>
+        <div class="header-actions">
+            <a href="#contact" class="contact-link"><i class="fas fa-headset"></i> Contact</a>
+            <a href="https://wa.me/243XXXXXXXXX" class="whatsapp-btn">
+                <i class="fab fa-whatsapp"></i> Commander
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Parfums de Luxe 100% Authentiques</h2>
+            <p>Découvrez notre collection exclusive de parfums pour hommes et femmes, livrés à votre porte en RDC.</p>
+            <a href="#products" class="cta-btn">Voir la Collection</a>
+        </div>
+    </section>
+
+    <!-- Product Grid -->
+    <section class="products" id="products">
+        <h2>NOTRE COLLECTION</h2>
+        <div class="product-grid" id="product-grid">
+            <!-- Products loaded via JS -->
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="service-card">
+            <i class="fas fa-truck"></i>
+            <h3>Livraison Rapide</h3>
+            <p>Expédition sous 24h à Kinshasa</p>
+        </div>
+        <div class="service-card">
+            <i class="fas fa-lock"></i>
+            <h3>Paiement Sécurisé</h3>
+            <p>Mobile Money, Visa et plus</p>
+        </div>
+        <div class="service-card">
+            <i class="fas fa-gem"></i>
+            <h3>Produits Authentiques</h3>
+            <p>Garantie d'origine</p>
+        </div>
+    </section>
+
+    <!-- Product Modal (Hidden by Default) -->
+    <div class="modal" id="product-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <img id="modal-image" src="" alt="Parfum">
+            <div class="modal-details">
+                <h3 id="modal-title">Nom du Parfum</h3>
+                <p class="price" id="modal-price">$00.00</p>
+                <p id="modal-desc">Un parfum élégant et durable...</p>
+                <a href="#" class="whatsapp-order-btn" id="whatsapp-order-link">
+                    <i class="fab fa-whatsapp"></i> Commander via WhatsApp
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>KINLUXE</h3>
+                <p>Votre boutique de parfums de luxe en RDC</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p><i class="fas fa-phone"></i> +243 XX XXX XXXX</p>
+                <p><i class="fab fa-whatsapp"></i> WhatsApp</p>
+            </div>
+            <div class="footer-section">
+                <h3>Horaires</h3>
+                <p>Lun-Sam: 9h-18h</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2024 KinLuxe. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
